@@ -1,9 +1,14 @@
+module "label" {
+  source = "git::https://gitlab.com/infraprints/modules/terraform-terraform-unique-label"
+
+  namespace  = "ACME"
+  stage      = "proto"
+  name       = "build"
+  attributes = ["artifacts"]
+}
+
 module "example" {
   source = "../../"
 
-  bucket = "acme-artifacts-${random_id.unique.hex}"
-}
-
-resource "random_id" "unique" {
-  byte_length = 4
+  bucket = "${module.label.id}"
 }

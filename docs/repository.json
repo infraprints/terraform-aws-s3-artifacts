@@ -1,8 +1,11 @@
 {
-  "name": "[PLACEHOLDER]",
-  "tagline": "[PLACEHOLDER]",
+  "name": "AWS S3 Build Artifacts Terraform module",
+  "slug": "terraform-aws-s3-artifacts",
+  "namespace": "aws",
+  "project": "infraprints",
+  "description": "Setup a bucket for storing build artifacts in S3.",
   "license": {
-    "name": "[PLACEHOLDER]"
+    "name": "MIT"
   },
-  "tags": ["[PLACEHOLDER]"]
+  "tags": ["terraform", "terraform-module", "aws", "aws-acm"]
 }

@@ -1,5 +1,5 @@
 ---
-name: AWS S3 Build Artifacts Terraform module
+name: AWS S3 Build Artifacts
 slug: s3-artifacts
 project: infraprints
 namespace: [terraform, aws]

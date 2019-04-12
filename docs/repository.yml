@@ -10,6 +10,4 @@ tags:
   - terraform
   - terraform-module
   - aws
-  - aws-s3
-  - build-artifacts
-  - expiration
+  - 

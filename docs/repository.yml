@@ -1,0 +1,15 @@
+---
+name: AWS S3 Build Artifacts
+slug: s3-artifacts
+project: infraprints
+namespace: [terraform, aws]
+description: Provision a bucket for storing build artifacts in S3.
+license:
+  name: MIT
+tags:
+  - terraform
+  - terraform-module
+  - aws
+  - aws-s3
+  - tiered-storage
+  - build-artifacts

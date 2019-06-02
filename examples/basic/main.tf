@@ -10,5 +10,6 @@ module "label" {
 module "example" {
   source = "../../"
 
-  bucket = "${module.label.id}"
+  bucket = module.label.id
 }
+

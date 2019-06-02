@@ -14,7 +14,7 @@ module "label" {
 module "example" {
   source = "../../"
 
-  bucket                   = "${module.label.id}"
+  bucket                   = module.label.id
   standard_transition_days = 10
   glacier_transition_days  = 30
   expiration_days          = 365
@@ -23,3 +23,4 @@ module "example" {
     Longevity = "Yearly"
   }
 }
+

@@ -1,7 +1,7 @@
 module "label" {
   source = "git::https://gitlab.com/infraprints/modules/terraform-terraform-unique-label"
 
-  namespace  = "ACME"
+  namespace  = "Infraprints"
   stage      = "proto"
   name       = "build"
   attributes = ["artifacts"]

@@ -1,0 +1,14 @@
+{
+  "slug": "terraform-aws-s3-artifacts",
+  "namespace": "infraprints",
+  "status": "archived",
+  "icon": "icon.svg",
+  "license": {
+    "type": "MIT",
+    "content": "Jonathan Beverly <jrbeverly>"
+  },
+  "topics": [],
+  "languages": [
+    "HCL"
+  ]
+}
